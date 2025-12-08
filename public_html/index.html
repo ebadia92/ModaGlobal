@@ -14,7 +14,8 @@
 
         <main>
             <p>Autor: Esteve Badia Mansilla</p>
-            <h2>Galeria d'imatges</h2>
+            
+                        <h2>Galeria d'imatges</h2>
             <p>Clica sobre les imatges per engrandir-les</p>
 
             <div class="galeria">
@@ -28,9 +29,33 @@
                     <p>Jaqueta de pell - Tardor/Hivern 2025</p>
                 </div>
             </div>
+            
+            <section id="seccio-contacte">
+                <h2>Contacte amb nosaltres</h2>
+                <form action="#" method="post">
+                    <p>
+                        <label for="nom">Nom:</label><br>
+                        <input type="text" id="nom" name="nom" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="missatge">Missatge:</label><br>
+                        <textarea id="missatge" name="missatge" rows="4" cols="50"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                </form>
+            </section>
+            
+            <script src="contacte.js"></script>
+            
         </main>
     </body>
     <footer>
-        <p class="version">Versió 1.1.1: Afegir galeria d’imatges amb script</p>
+        <p class="version">Versió 1.1.2: Afegir formulari de contacte</p>
     </footer>
 </html>
